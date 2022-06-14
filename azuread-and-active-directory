@@ -1,6 +1,10 @@
 Checking if a device is Azure AD Joined, or Hybrid
 
-run Command Prompt as admin and type dsregcmd /status command on the device, check whether the AzureAdJoined and DomainJoined are set to YES.
+run Command Prompt as admin and type:
+
+dsregcmd /status
+
+on the device, check whether the AzureAdJoined and DomainJoined are set to YES.
 
 ========================================================
 Transfer Flexible Single Master Operations (FSMO) roles:
