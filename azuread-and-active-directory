@@ -1,3 +1,6 @@
+Checking if a device is Azure AD Joined, or Hybrid
+
+run Command Prompt as admin and type dsregcmd /status command on the device, check whether the AzureAdJoined and DomainJoined are set to YES.
 
 ========================================================
 Transfer Flexible Single Master Operations (FSMO) roles:
@@ -23,4 +26,4 @@ In a forest, there are at least five FSMO roles that are assigned to one or more
 
 netdom query fsmo
 
-
+==========
