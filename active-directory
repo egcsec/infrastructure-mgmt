@@ -41,6 +41,18 @@ Infrastructure master
 
 
 
+=================
+
+Domain Replication 
+
+https://theitbros.com/check-active-directory-replication/#:~:text=How%20to%20Check%20Active%20Directory%20Replication%3F%201%20Checking,ADREPLSTATUS%3A%20The%20Active%20Directory%20Replication%20Status%20Tool%20
+=================
+
+repadmin /showrepl
+
+repadmin /replsummary DC1
+
+Repadmin /syncall dc1
 
 
 
