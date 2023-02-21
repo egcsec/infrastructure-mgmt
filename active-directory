@@ -31,3 +31,16 @@ In a forest, there are at least five FSMO roles that are assigned to one or more
 netdom query fsmo
 
 =============
+
+
+Schema master               
+Domain naming master        
+PDC                         
+RID pool manager            
+Infrastructure master       
+
+
+
+
+
+
