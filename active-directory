@@ -6,9 +6,9 @@ dsregcmd /status
 
 on the device, check whether the AzureAdJoined and DomainJoined are set to YES.
 
-========================================================
+=========================================================
 Transfer Flexible Single Master Operations (FSMO) roles:
-========================================================
+=========================================================
 
 
 FSMO Roles
@@ -26,11 +26,11 @@ In a forest, there are at least five FSMO roles that are assigned to one or more
     PDC Emulator: The PDC emulator is a domain controller that advertises itself as the primary domain controller (PDC) to workstations, member servers, and domain controllers that are running earlier versions of Windows. For example, if the domain contains computers that are not running Microsoft Windows XP Professional or Microsoft Windows 2000 client software, or if it contains Microsoft Windows NT backup domain controllers, the PDC emulator master acts as a Windows NT PDC. It is also the Domain Master Browser, and it handles password discrepancies. At any one time, there can be only one domain controller acting as the PDC emulator master in each domain in the forest.
 
 
-=============
+===============
 
 netdom query fsmo
 
-=============
+===============
 
 
 Schema master               
