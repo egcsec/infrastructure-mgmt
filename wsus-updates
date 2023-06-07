@@ -1,0 +1,4 @@
+
+#run this on the Windows Update Server: 
+
+wuauclt /detectnow
