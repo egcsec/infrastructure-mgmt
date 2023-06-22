@@ -6,9 +6,9 @@ dsregcmd /status
 
 on the device, check whether the AzureAdJoined and DomainJoined are set to YES.
 
-=========================================================
+==========================================================
 Transfer Flexible Single Master Operations (FSMO) roles:
-=========================================================
+==========================================================
 
 
 FSMO Roles
