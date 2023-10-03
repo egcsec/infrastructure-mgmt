@@ -1,0 +1,7 @@
+
+
+netdom query fsmo 
+
+dfsrmig /getglobalstate
+
+
