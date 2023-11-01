@@ -31,7 +31,7 @@ In a forest, there are at least five FSMO roles that are assigned to one or more
 netdom query fsmo
 
 ===============
-
+*used command on dc today
 
 Schema master               
 Domain naming master        
