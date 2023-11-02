@@ -9,7 +9,7 @@ on the device, check whether the AzureAdJoined and DomainJoined are set to YES.
 ==========================================================
 Transfer Flexible Single Master Operations (FSMO) roles:
 ==========================================================
-
+Useful commands when upgrading DC's - 
 
 FSMO Roles
 
