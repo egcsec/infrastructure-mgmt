@@ -1,0 +1,5 @@
+###update / manually change date & time on windows server
+
+open RUN -> 
+type: timedate.cpl
+
