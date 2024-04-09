@@ -1,0 +1,15 @@
+=====
+Event Viewer
+
+
+
+An operation was attempted on a privileged object
+
+4674: An operation was attempted on a privileged object:
+
+"This event generates when an attempt is made to perform privileged operations on a protected subsystem object after the object is already opened. This event generates, for example, when SeShutdownPrivilege, SeRemoteShutdownPrivilege, or SeSecurityPrivilege is used. Failure event generates when operation attempt fails."
+
+## Notes
+Object Server: LSA
+LSA = Local Security Authority
+
