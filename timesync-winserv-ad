@@ -1,0 +1,21 @@
+Some helpful w32tm commands:
+
+Force synchronizing the time asap
+w32tm /resync /nowait
+
+Check NTP configuration
+w32tm /query /configuration
+
+Display time source
+w32tm /query /source
+
+Display list of all configured NTP servers and their status
+w32tm /query /peers
+
+w32tm /query /status
+
+----------------------------------------------------------------------------------------------------
+Display time service status i.e whether it is getting time from local cmso clock/external NTP server
+
+Force domain computers to synchronize the time with the DC; use elevated command prompt
+w32tm /config /syncfromflags:domhier /update
