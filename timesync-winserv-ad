@@ -19,3 +19,7 @@ Display time service status i.e whether it is getting time from local cmso clock
 
 Force domain computers to synchronize the time with the DC; use elevated command prompt
 w32tm /config /syncfromflags:domhier /update
+
+
+## refrences
+https://community.spiceworks.com/t/configure-dc-to-synchronize-time-with-external-ntp-server/1008647
