@@ -2,3 +2,15 @@
 #run this on the Windows Update Server: 
 
 wuauclt /detectnow
+
+
+============== 
+
+Command Prompt 
+
+On Windows Server open an elevated command prompt:
+
+sconfig
+
+Select option “6” to “Download and Install Windows Updates”
+
