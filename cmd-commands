@@ -1,0 +1,3 @@
+## delete user profile windows 11 via command line:
+
+rd /s /q "C:\Users\USERNAME"
